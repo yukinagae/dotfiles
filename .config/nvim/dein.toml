@@ -445,3 +445,12 @@ if   = '''!has('nvim')'''
 repo = 'roxma/vim-hug-neovim-rpc'
 if   = '''!has('nvim')'''
 
+[[plugins]]
+repo = 'BurningEther/iron.nvim'
+
+[[plugins]]
+repo = 'chriskempson/base16-vim'
+
+[[plugins]]
+repo = 'junegunn/goyo.vim'
+

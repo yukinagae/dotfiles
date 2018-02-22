@@ -135,6 +135,8 @@ nnoremap <leader>a :cclose<CR>
 tnoremap <silent> <ESC> <C-\><C-n>
 nnoremap <leader>vt :tabnew<CR>:terminal<CR>
 
+nnoremap <leader>st :split<CR>:terminal<CR>
+
 " denite
 
 """"""""""""""""""""""""""""""
@@ -201,3 +203,15 @@ endif
 if has('vim_starting') && dein#check_install()
   call dein#install()
 endif
+
+
+"
+" color theme
+if (has("termguicolors"))
+ set termguicolors
+endif
+syntax enable
+set t_Co=256
+set background=dark
+colorscheme tender
+
